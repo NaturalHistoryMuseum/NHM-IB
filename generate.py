@@ -3,7 +3,8 @@ import urllib
 
 sources = [
 	'http://phasmida.myspecies.info/interactions.txt',
-	'http://phthiraptera.myspecies.info/interactions.txt'
+        'http://phthiraptera.info/interactions.txt',
+        'http://britishfleas.myspecies.info/interactions.txt'
 	]
 
 i = 0;
