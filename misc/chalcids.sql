@@ -2,7 +2,7 @@ SELECT
 	'' as InteractionID,
 	'' as InteractionURL,
 	TAXONCODE as Species1UUID, 
-	VALGENUS + ' ' + VALSPECIES as Species1Name, 
+	VALGENUS + ' ' + isNull(VALSPECIES, '') as Species1Name, 
 	'' as Species1LifeCycleStage, 
 	'' as Species1OrganismPart,
 	'' as Species1Status,
@@ -23,4 +23,4 @@ SELECT
 	'' as ReferenceDOI,
 	PAGEREF as ReferencePage,
 	'' as Notes 
-from tblAllHostReports;
+from tblAllHostReports

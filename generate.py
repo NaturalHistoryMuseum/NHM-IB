@@ -5,7 +5,8 @@ sources = [
 	'http://phasmida.myspecies.info/interactions.txt',
         'http://phthiraptera.info/interactions.txt',
         'http://britishfleas.myspecies.info/interactions.txt',
-	'http://hosts.myspecies.info/interactions.txt'
+	'http://hosts.myspecies.info/interactions.txt',
+	'https://docs.google.com/spreadsheets/d/1yYJo1YhuTx4qYGTGHF_CT80amPWYO7hiL-LnSWJWHmg/pub?output=csv'
 	]
 
 i = 0;
