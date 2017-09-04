@@ -21,6 +21,6 @@ SELECT
 	'' as InteractionRecordType,
 	REFCODE + ' via Universal Chalcidoidea Database' as Reference,
 	'' as ReferenceDOI,
-	PAGEREF as ReferencePage,
+	'"' + PAGEREF + '"'  as ReferencePage,
 	'' as Notes 
 from tblAllHostReports
